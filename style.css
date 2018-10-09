@@ -1,0 +1,71 @@
+#wrap {
+	margin: 0 auto;
+	width: 300px;
+	height: 520px;
+	background-color: black;
+	padding-top: 20px;
+	border-radius: 50px;
+}
+.result {
+	width: 260px;
+	height: 100px;
+	background-color: green;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+#valCalc {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	border-radius: 10px;
+	outline: none;
+	border: none;
+	background-color: pink;
+	font-size: 30px;
+	text-align: right;
+}
+#firstLine,
+#secondLine,
+#threeLine,
+#fourLine,
+#fiveLine {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#firstLine > div,
+#secondLine > div,
+#threeLine > div,
+#fourLine > div {
+	width: 50px;
+	height: 50px;
+	background-color: #ccc;
+	text-align: center;
+	line-height: 50px;
+	margin: 10px;
+	border-radius: 50px;
+	cursor: pointer;
+	font-size: 30px;
+	color: #fff;
+}
+#fiveLine > div {
+	width: 260px;
+	height: 50px;
+	background-color: #ccc;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 10px;
+	border-radius: 50px;
+	cursor: pointer;
+	font-size: 30px;
+	color: #fff;
+}
+#fourLine > #zero {
+	width: 120px;
+}
+#firstLine > .operator,
+#secondLine > .operator,
+#threeLine > .operator,
+#fourLine > .operator {
+	background-color: orange;
+}
